@@ -1,0 +1,1 @@
+﻿Implementation from the example: https://andrewlock.net/using-cancellationtokens-in-asp-net-core-mvc-controllers/  to demonstrate cancellation in a web api method.
