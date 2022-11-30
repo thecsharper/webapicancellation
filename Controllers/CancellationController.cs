@@ -14,6 +14,7 @@ namespace WebApiCancellation.Controllers
         }
 
         [HttpGet("/cancellationtest")]
+        [ProducesResponseType(typeof(string), 200)]
         public async Task<string> Get(CancellationToken cancellationToken)
         {
             _logger.LogInformation("Long running task..");
